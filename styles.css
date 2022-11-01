@@ -8,21 +8,20 @@ body {
 .fixed-top {
     background-color: #829460;
     height: 50px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
 }
 
 .table-icon {
   display: inline-table;
-  position: relative;
-  right: 660px;
+  position: absolute;
+  left: 0;
 }
 
 .table-login {
   display: inline-table;
-  position: relative;
-  left: 660px;
-  bottom: 6px;
+  position: absolute;
+  right: 0;
 }
 
 .quizz {
