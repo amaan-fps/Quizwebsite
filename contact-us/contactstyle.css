@@ -1,0 +1,44 @@
+body {
+    background-color: #B6E388;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+ 
+  .member{
+    border: 2px solid white;
+    font-family: 'Lobster', cursive;
+  }
+  .section1, .section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .name{
+    color: green;
+    font-size: 23px;
+  }
+  .text{
+       color: #6c1f1f;
+    font-size: 20px;
+ 
+  }
+  .member{
+  border: 2px solid white;
+    font-family: 'Lobster', cursive;
+    margin: 40px 82px;
+    padding: 21px;
+    box-shadow:30px 35px 62px 5px rgb(54 46 46);
+  }
+  .btn{
+    background: none;
+     font-family: 'Lobster', cursive;
+    color: #6c1f1f;
+    font-size: 20px;
+    border-radius: 35px;
+    border: 2px solid  #6c1f1f;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+  }
