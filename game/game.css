@@ -10,7 +10,7 @@
   .choice-container:hover {
     cursor: pointer;
  gamee
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 235, 185, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(32, 247, 129, 0.5);
  main
     transform: translateY(-0.1rem);
     transition: transform 150ms;
