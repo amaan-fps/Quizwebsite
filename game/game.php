@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  if(!$_SESSION["email"]){
+    header("Location:/Quizwebsite/log/signin.html");
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
