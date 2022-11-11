@@ -15,7 +15,7 @@ $_SESSION["email"] = $uname;
 if ($result->num_rows > 0) {
 
 
-  header('Location:home.php');
+  header('Location:/Quizwebsite/');
 } else {
 
  echo '<script> alert("Invalid Details Or blocked by Admin Please try Again!")</script>';
