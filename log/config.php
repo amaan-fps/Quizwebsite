@@ -3,7 +3,7 @@ $hostname = "localhost";
 $servername="localhost";
 $username = "root";
 $password = "";
-$dbname = "library_project";
+$dbname = "quiz_db";
 
 // Create connection
 $conn = new mysqli($hostname, $username, $password, $dbname);
@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 //  echo 'success';
- 
+
  
 
 ?>
