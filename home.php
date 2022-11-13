@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!$_SESSION["user"]){
+        header("Location:/Quizwebsite");
+    }
+    $user = $_SESSION["user"];
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,8 +31,7 @@
       <table class="table-login">
         <tr>
           <td><img class="india-png" src="images/india.png" alt="india.png"></td>
-          <td><a class="login log-in" href="log/signin.html">Log in</a></td>
-          <td><a class="login sign-up" href="log/singup.html">Sign up</a></td>
+          <td><a class="login log-in" href="log/signin.html"><?php echo $user["name"]?></a></td>
           <td><a class="login log-out" href="log/logout.php">Log out</a></td>
         </tr>
       </table>
