@@ -1,7 +1,7 @@
 <?php
   session_start();
-  if(!$_SESSION["email"]){
-    header("Location:/Quizwebsite/log/signin.html");
+  if(!$_SESSION["user"]){
+    header("Location:/Quizwebsite/log/signin.php");
   }
 ?>
 
