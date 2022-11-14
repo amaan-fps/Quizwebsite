@@ -63,7 +63,7 @@
 
                 <li><a href="singup.html" style="margin-top: 27px;font-size: 20px"><span class="glyphicon glyphicon-user"></span>
                         Sign Up</a></li>
-                <li><a href="signin.html" style="margin-top: 27px;margin-right: 100px;font-size: 20px;color: #0c4ad4"><span
+                <li><a href="signin.php" style="margin-top: 27px;margin-right: 100px;font-size: 20px;color: #0c4ad4"><span
                             class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
